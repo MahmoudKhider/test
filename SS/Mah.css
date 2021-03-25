@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    border: 1px  dotted rgb(0, 217, 255);
+    background-color: rgb(69, 199, 238);
+    text-shadow: 2px;
+    font-size: larger;
+    text-align: center;
+}
+.e img{
+   width: 15%;
+   height: 4%;
+}
+.ee{
+    border: solid aqua 1px;
+    margin-left: 200px ;
+    padding-bottom: 147px;
+    padding-left: 300px;
+    padding-right: 200px;
+    background-color: aqua;
+    text-align: left;
+    position: absolute;
+    right: 10px;
+    top: 25px;
+}
+.ll {
+    background-color: aqua;
+    position: absolute;
+    right: 1070px;
+    box-sizing: border-box;
+    padding-right: 60px ;
+    padding-left: 60px;
+}
+.cv table {
+    background-color: aqua;
+    position: absolute;
+   right: 10px;
+   left: 200px;
+    width: 1050px;
+    height: 355px;
+   text-align: center;
+}
+

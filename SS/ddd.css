@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url(ffg.jpg);
+    opacity: .7;
+    background-size: cover;
+    background-position:center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.rr{
+    background: rgb(96, 140, 223);
+    text-align: center;
+}
+.rr ul{
+    display: inline-flex;
+    list-style: none;
+    color: #000;
+}
+.rr ul li{
+    width: 110px;
+    margin: 13px;
+    padding: 13px;
+}
+.rr ul li a{
+    text-decoration: none;
+    color: rgb(160, 17, 46);
+}
+.act, .rr ul li:hover{
+    background-color: cyan;
+    border-radius: 3px;
+}
+.rr .fa{
+    margin-right: 8px;
+}
+.s1{
+    display: none;
+
+}
+.rr ul li:hover .s1{
+    display: block;
+    position: absolute;
+    background-color: darkcyan;
+    margin-top: 13px;
+    margin-left: -13px;
+}
+.rr ul li:hover .s1 ul{
+    display: block;
+    margin: 10px;
+}
+.rr ul li:hover .s1 ul li{
+    width: 140px;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+    border-radius: 0%;
+    text-align: left;
+    background: transparent;
+}
+.rr ul li:hover .s1 ul li a:hover{
+    color: rgb(3, 32, 95);
+}
+.hh img{
+    width: 100px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+.hh p{
+    color: aliceblue;
+}
+.kk{
+    text-align: center;
+    width: 280px;
+    height: 250px;
+    background-color: rgb(90, 40, 37);
+    color: rgb(6, 124, 160);
+    top: 50%;
+    position: absolute;
+    left: 40%;
+    box-sizing: border-box;
+    opacity: .7;
+}
+.i{
+    width: 40px;
+    height: 40px;
+    border-radius: 120%;
+    position: absolute;
+    top: -25px;
+    left: 43%;
+}
